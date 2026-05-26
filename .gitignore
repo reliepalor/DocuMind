@@ -1,0 +1,32 @@
+# .NET
+Backend/**/bin/
+Backend/**/obj/
+Backend/DocuMind.API/*.log
+
+# Frontend
+Frontend/documind.web/node_modules/
+Frontend/documind.web/dist/
+Frontend/documind.web/.vite/
+
+# Firebase Secrets
+firebase-service-account.json
+*.pem
+
+# Environment
+.env
+appsettings.Development.json
+
+# General
+.DS_Store
+*.user
+*.suo
+*.sln.user
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Visual Studio
+.vscode/
+.vs/
